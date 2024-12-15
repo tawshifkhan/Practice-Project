@@ -16,6 +16,8 @@ a{
     width: 1140px;
     margin: 0 auto;
 }
+
+/* START HEADER STYLE */
 header{
     background-color: #f7d9b691;
 }
@@ -26,7 +28,7 @@ header .logo-navbar{
     height: 80px;
 }
 header .logo-navbar .logo{
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 600;
     color: #242424;
 }
@@ -34,3 +36,35 @@ header .logo-navbar nav a{
     margin-left: 40px;
     color: #242424;
 }
+/* END HEADER STYLE */
+
+/* START HOME SECTION STYLE */
+.home{
+    background-color: #f7d9b691;
+}
+.home-section{
+    padding: 30px 0;
+    text-align: center;
+}
+.home-section h1{
+    font-size: 40px;
+    font-weight: 600;
+}
+.home-section p{
+    width: 750px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+.home-section a{
+    background-color: #FF900E;
+    color: #fff;
+    padding: 15px;
+    border-radius: 7px;
+}
+.home-section img{
+    width: 100%;
+    object-fit: contain;
+    margin-top: 35px;
+}
+/* END HOME SECTION STYLE */
