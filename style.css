@@ -22,6 +22,11 @@ a{
     padding: 15px;
     border-radius: 7px;
 }
+.feature-section,
+.facts,
+.sponspors{
+    margin-top: 60px;
+}
 
 /* START HEADER STYLE */
 header{
@@ -35,7 +40,7 @@ header .logo-navbar{
 }
 header .logo-navbar .logo{
     font-size: 30px;
-    font-weight: 600;
+    font-weight: bold;
     color: #242424;
 }
 header .logo-navbar nav a{
@@ -54,7 +59,6 @@ header .logo-navbar nav a{
 }
 .home-section h1{
     font-size: 40px;
-    font-weight: 600;
 }
 .home-section p{
     width: 750px;
@@ -70,9 +74,6 @@ header .logo-navbar nav a{
 /* END HOME SECTION STYLE */
 
 /* START FEATURE SECTION STYLE */
-.feature-section{
-    margin-top: 60px;
-}
 .feature-section .feature-box{
     display: flex;
     justify-content: space-between;
@@ -98,7 +99,6 @@ header .logo-navbar nav a{
     color: #FF900E;
 }
 .feature-section .feature-box .feature-content p{
-    columns: #acacac;
     margin: 20px 0 35px;
 }
 
@@ -148,3 +148,59 @@ header .logo-navbar nav a{
     font-size: 30px;
 }
 /* END FEATURE SECTION STYLE */
+
+/* START FACTS SECTION STYLE */
+.facts h3{
+    font-size: 30px;
+}
+.facts p{
+    width: 500px;
+    margin-top: 20px;
+}
+.facts .fact-box{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 90px;
+    padding: 60px;
+}
+.facts .fact-box .fact-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #FF900E;
+    border-radius: 7px;
+    padding: 30px;
+}
+.facts .fact-box .fact-item b{
+    margin: 10px 0;
+}
+/* END FACTS SECTION STYLE */
+
+/* START SPONSPORS SECTION STYLE */
+.sponspors h3{
+    font-size: 30px;
+    text-align: center;
+}
+.sponspors p{
+    text-align: center;
+    margin-top: 20px;
+}
+.sponspors .sponspor-list{
+    text-align: center;
+}
+.sponspors .sponspor-list img{
+    width: 224px;
+    padding: 40px;
+    filter: grayscale(100%);
+}
+/* END SPONSPORS SECTION STYLE */
+
+/* START FOOTER STYLE */
+footer{
+    background-color: #f7d9b691;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 60px;
+}
+/* END FOOTER STYLE */
